@@ -35,7 +35,7 @@ export default function VideoModal({ video, onClose }) {
         </div>
         <div className="p-4 text-sm border-t border-white/10">
           <h4 className="font-medium">{video.title}</h4>
-          <p className="text-white/60">Infinity Ominiverse</p>
+          <p className="text-white/60">Infinity One</p>
         </div>
       </motion.div>
     </motion.div>

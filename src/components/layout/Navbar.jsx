@@ -21,12 +21,14 @@ export default function Navbar() {
           <a href="#home" className="flex items-center gap-3 text-xl font-bold">
             <img
               src="/logo1.png"
-              alt="Infinity Ominiverse Logo"
+              alt="Infinity One Logo"
               className="w-10 h-10 object-contain rounded-full border border-white/20"
             />
-            <span>
-              Infinity <span className="font-light opacity-80">Ominiverse</span>
-            </span>
+            <span className="relative text-2xl font-semibold tracking-wide text-white bg-[linear-gradient(110deg,#fff,rgba(255,255,255,0.5),#fff)] bg-[length:200%_100%] bg-clip-text text-transparent animate-shine">
+  Infinity
+  <span className="font-light opacity-80 ml-1">One</span>
+</span>
+
           </a>
 
           {/* Desktop Nav Links */}
@@ -87,10 +89,10 @@ export default function Navbar() {
                   <div className="flex items-center gap-3">
                     <img
                       src="/logo1.png"
-                      alt="Infinity Ominiverse Logo"
+                      alt="Infinity One Logo"
                       className="w-10 h-10 rounded-full border border-white/20"
                     />
-                    <h2 className="font-semibold text-lg">Infinity Ominiverse</h2>
+                    <h2 className="font-semibold text-lg">Infinity One</h2>
                   </div>
                   <button
                     onClick={() => setIsOpen(false)}
@@ -127,7 +129,7 @@ export default function Navbar() {
 
               {/* Footer */}
               <div className="border-t border-white/10 px-6 py-4 text-xs text-white/50">
-                © {new Date().getFullYear()} Infinity Ominiverse
+                © {new Date().getFullYear()} Infinity One
               </div>
             </motion.aside>
           </>

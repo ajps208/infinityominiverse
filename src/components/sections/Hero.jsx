@@ -50,7 +50,9 @@ export default function Hero({ setActiveVideo }) {
           {SLIDES[current].type === "video" &&
             SLIDES[current].src.includes("youtube.com") && (
               <iframe
-                src={`${SLIDES[current].src}?autoplay=1&mute=1&controls=0&loop=1&playlist=${
+                src={`${
+                  SLIDES[current].src
+                }?autoplay=1&mute=1&controls=0&loop=1&playlist=${
                   SLIDES[current].src.split("/embed/")[1]
                 }`}
                 title={`Video ${current + 1}`}
@@ -95,15 +97,14 @@ export default function Hero({ setActiveVideo }) {
         {/* Heading */}
         <h1
           className="
-            text-[2.5rem] sm:text-5xl md:text-6xl lg:text-[4rem] xl:text-[4.5rem]
-            font-semibold leading-[1.1]
-            text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]
-            mb-6 
-            whitespace-normal lg:whitespace-nowrap
-            break-words"
+  text-[2.5rem] sm:text-5xl md:text-6xl
+  font-medium tracking-tight
+  text-white
+  mb-6
+"
         >
           The Infinity{" "}
-          <span className="font-light text-gray-300">Ominiverse</span>
+          <span className="font-extralight text-white/70">One</span>
         </h1>
 
         {/* Description */}

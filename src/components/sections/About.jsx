@@ -10,7 +10,7 @@ export default function About({ fade }) {
         <Fade>
           <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-6">
             <h2 className="text-2xl font-bold sm:text-3xl text-white">
-              About Infinity Ominiverse
+              About Infinity One
             </h2>
             <p className="mt-4 text-white/70">
               We craft irreverent, high-signal commentary blending politics,

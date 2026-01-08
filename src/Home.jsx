@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 // =============================================================
-// Infinity Ominiverse — Refined React Website
+// Infinity One — Refined React Website
 // Elegant | Cinematic | Professional | Animated | Black & White
 // Tagline: "God's Own Channel"
 // =============================================================
@@ -122,7 +122,7 @@ const THEMES = [
 ];
 
 // ---------------------------- App ----------------------------
-export default function InfinityOminiverse() {
+export default function Home() {
   const prefersReducedMotion = useReducedMotion();
   const [activeVideo, setActiveVideo] = useState(null);
 
@@ -179,7 +179,7 @@ function Navbar() {
           {/* Logo Image */}
           <img
             src="/logo1.png" // 👈 change this path to your logo image
-            alt="Infinity Ominiverse Logo"
+            alt="Infinity One Logo"
             className="w-10 h-10 object-contain rounded-full border border-white/20"
           />
           <span>
@@ -635,7 +635,7 @@ function Contact() {
         <div>
           <h2 className="text-3xl font-semibold mb-4">Connect With Us</h2>
           <p className="text-white/70 mb-6">
-            Follow Infinity Ominiverse for bold content drops, behind-the-scenes
+            Follow Infinity One for bold content drops, behind-the-scenes
             satire, and cultural commentary that matters.
           </p>
           <div className="flex flex-wrap gap-3">
@@ -694,7 +694,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="border-t border-white/10 py-8 text-center text-xs text-white/60">
-      © {new Date().getFullYear()} Infinity Ominiverse — God’s Own Channel
+      © {new Date().getFullYear()} Infinity One — God’s Own Channel
     </footer>
   );
 }
@@ -737,7 +737,7 @@ function VideoModal({ video, onClose }) {
         </div>
         <div className="p-4 text-sm border-t border-white/10">
           <h4 className="font-medium">{video.title}</h4>
-          <p className="text-white/60">Infinity Ominiverse</p>
+          <p className="text-white/60">Infinity One</p>
         </div>
       </motion.div>
     </motion.div>

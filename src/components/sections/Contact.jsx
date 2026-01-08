@@ -8,7 +8,7 @@ export default function Contact() {
         <div>
           <h2 className="text-3xl font-semibold mb-4">Connect With Us</h2>
           <p className="text-white/70 mb-6">
-            Follow Infinity Ominiverse for bold content drops, behind-the-scenes
+            Follow Infinity One for bold content drops, behind-the-scenes
             satire, and cultural commentary that matters.
           </p>
           <div className="flex flex-wrap gap-3">
